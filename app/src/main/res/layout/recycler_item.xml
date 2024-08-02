@@ -1,0 +1,117 @@
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCard"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="@color/creamy">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/recImage"
+            android:layout_marginStart="20dp"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/camera"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recCategory"
+            android:text="Category"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_toEndOf="@+id/recImage"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recName"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_toEndOf="@+id/recCategory"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recAgg"
+            android:text="Age"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:maxLines="0"
+            android:layout_toEndOf="@+id/recName"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recBreeding"
+            android:text="Breed"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_toEndOf="@+id/recAgg"
+            android:maxLines="0"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recSex"
+            android:text="Sex"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_below="@+id/recName"
+            android:layout_toEndOf="@+id/recImage"
+            android:maxLines="0"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recColor"
+            android:text="Color"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_below="@+id/recAgg"
+            android:layout_toEndOf="@+id/recSex"
+            android:maxLines="0"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recNote"
+            android:text="Note"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_below="@+id/recBreeding"
+            android:layout_toEndOf="@+id/recColor"
+            android:maxLines="0"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="12dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

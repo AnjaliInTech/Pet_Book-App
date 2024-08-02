@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "543860686268",
+    "project_id": "pet-book-da7a0",
+    "storage_bucket": "pet-book-da7a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543860686268:android:e68d87f1538df3638b3fb9",
+        "android_client_info": {
+          "package_name": "com.example.pet_book"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWZWcEk_j1_uRjOmiu5L5bcibj966NdtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
